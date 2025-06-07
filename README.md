@@ -335,7 +335,10 @@ tail -f glitch.log
 ```bash
 cd ~ && wget https://raw.githubusercontent.com/zhumengkang/agsb/main/root.sh && chmod +x root.sh && ./root.sh
 ```
-
+## curl一键安装命令Proot
+```bash
+cd ~ && curl -sSL https://raw.githubusercontent.com/zhumengkang/agsb/main/root.sh -o root.sh && chmod +x root.sh && ./root.sh
+```
 ## 基本命令
 
 ```bash
@@ -460,3 +463,5 @@ echo "nameserver 8.8.8.8" >> /etc/resolv.conf
 
 如果您喜欢这个项目，请在GitHub上给我一个Star，或在YouTube上关注我的频道！
 如有问题或建议，欢迎通过GitHub Issues或Telegram群组联系我。
+## 赞助商
+[![Powered by DartNode](https://dartnode.com/branding/DN-Open-Source-sm.png)](https://dartnode.com "Powered by DartNode - Free VPS for Open Source")
